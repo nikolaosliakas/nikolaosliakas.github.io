@@ -4,56 +4,32 @@
 # ╚══════════════════════════════════════════════════╝
 
 # ── Site settings ──────────────────────────────────
-title: Your Name
-email: you@example.com
+title: Nikos Liakas
+email: nikosliakas@tutamail.com
 description: >-
-  Your Name — Your role at Your Company.
-  A short SEO-friendly description of who you are and what you do.
+  Nikos Liakas - Compile and Investigate
+  Just graduated computer science, while working as a data engineer. Looking for C++ fun with payment.
 baseurl: ""
-url: "https://yourusername.github.io"
+url: "https://nikolaosliakas.github.io"
 
 # ── Terminal identity ─────────────────────────────
 # Shown as "username@" in the terminal header and footer
-username: yourusername
+username: nikolaosliakas
 
 # ── Social URLs (used in footer and about page) ──
-github_url: https://github.com/yourusername
-scholar_url: https://scholar.google.com/citations?user=XXXXX
-linkedin_url: https://www.linkedin.com/in/yourusername
+github_url: https://github.com/nikolaosliakas
+linkedin_url: https://www.linkedin.com/in/nikos-liakas-931b74134/
 
 # ── Author (used by jekyll-seo-tag) ───────────────
 author:
-  name: Your Name
-  url: https://yourusername.github.io
-  twitter: yourusername
-
-# ── Social links (used by jekyll-seo-tag) ─────────
-twitter:
-  username: yourusername
-  card: summary
-
-social:
-  name: Your Name
-  links:
-    - https://github.com/yourusername
-    - https://www.linkedin.com/in/yourusername
-    # - https://scholar.google.com/citations?user=XXXXX
-
-# ── Analytics (uncomment and add your ID) ─────────
-# google_analytics_4: G-XXXXXXXXXX
-
-# ── Footer info ───────────────────────────────────
-affiliation: >
-    Your Name<br/>
-    Your Title at Your Company<br/>
-    <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a>
+  name: Nikos Liakas
+  url: https://nikolaosliakas.github.io
 
 # ── Navigation ────────────────────────────────────
 # Pages shown as tabs in the terminal
 nav_pages:
-  - name: publications
   - name: research
-  - name: teaching
+  - name: software
   - name: curriculum
 
 include:
