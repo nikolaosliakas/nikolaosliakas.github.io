@@ -7,3 +7,33 @@
 @import "layout";
 @import "animations";
 @import "responsive";
+
+.ascii-art {
+  /* CRITICAL: Forces the browser to respect spaces, line breaks, and use fixed-width characters */
+  font-family: 'Courier New', Courier, monospace;
+  white-space: pre;
+  line-height: 1.2;
+  letter-spacing: 0;
+  
+  /* Aesthetics */
+  background-color: #0a0a0a;
+  color: #00ffcc;
+  padding: 20px;
+  overflow-x: auto; /* Prevents it from breaking if the screen is too narrow */
+}
+
+/* Your glowing pulse animation */
+.glow-pulse {
+  animation: pulse 2s infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    text-shadow: 0 0 2px #00ffcc, 0 0 10px #00ffcc;
+    opacity: 0.8;
+  }
+  100% {
+    text-shadow: 0 0 5px #00ffcc, 0 0 20px #00ffcc, 0 0 30px #00ffcc;
+    opacity: 1;
+  }
+}
