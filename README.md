@@ -36,7 +36,6 @@
 - **Skill bars** — terminal-styled progress bars for languages and coding skills
 - **Tree views** — `tree`-command styled education/experience timelines with auto-calculated durations
 - **ASCII art** — large monospace name banner on the homepage
-- **Jekyll Scholar** — full BibTeX bibliography support for publications
 - **SEO optimized** — sitemap, Open Graph, Twitter Cards, JSON-LD structured data
 - **No Bootstrap, no jQuery** — pure custom CSS (~600 lines), minimal vanilla JS
 - **Responsive** — works on mobile with graceful terminal scaling
@@ -211,7 +210,7 @@ _sass/
 assets/
   main.scss              # SCSS entry point
   js/terminal.js         # All client-side JS
-  ref.bib                # BibTeX bibliography
+
 images/
   teampic/               # Your profile photo
   news/                  # News images
@@ -233,7 +232,7 @@ MIT — use it freely for your personal or academic website.
 - Design inspired by terminal emulators and the GitHub dark theme
 - Font: [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 - Map: [Leaflet.js](https://leafletjs.com/) with [CartoDB Dark Matter](https://carto.com/basemaps/) tiles
-- Bibliography: [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar)
+
 - Built with [Jekyll](https://jekyllrb.com/)
 
 
