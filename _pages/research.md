@@ -33,6 +33,6 @@ My master's thesis was a program and a report on using *Logically Constrained Si
 The expression that was output would be input into a collection of SAT solvers and theorum provers to determine if a program would terminate on all inputs. 
 
 <!-- - [GitHub repo](https://github.com/yourusername/project) -->
-- [Thesis PDF]({{ site.url }}/papers/msc_proj_report.pdf)
+- [Thesis PDF]({{ site.url }}{{ site.baseurl }}/papers/msc_proj_report.pdf)
 
 </div>
