@@ -1,22 +1,25 @@
 ---
 title: "About"
 layout: homelay
-description: "Your Name — Your title. Brief SEO description."
+description: "Nikos Liakas - Software Engineer"
 permalink: /
 ---
 
 <pre class="ascii-art glow-pulse" aria-hidden="true">
-      ___                       ___           ___           ___                    ___                   ___           ___           ___           ___     
-     /\__\          ___        /\__\         /\  \         /\  \                  /\__\      ___        /\  \         /\__\         /\  \         /\  \    
-    /::|  |        /\  \      /:/  /        /::\  \       /::\  \                /:/  /     /\  \      /::\  \       /:/  /        /::\  \       /::\  \   
-   /:|:|  |        \:\  \    /:/__/        /:/\:\  \     /:/\ \  \              /:/  /      \:\  \    /:/\:\  \     /:/__/        /:/\:\  \     /:/\ \  \  
-  /:/|:|  |__      /::\__\  /::\__\____   /:/  \:\  \   _\:\~\ \  \            /:/  /       /::\__\  /::\~\:\  \   /::\__\____   /::\~\:\  \   _\:\~\ \  \ 
- /:/ |:| /\__\  __/:/\/__/ /:/\:::::\__\ /:/__/ \:\__\ /\ \:\ \ \__\          /:/__/     __/:/\/__/ /:/\:\ \:\__\ /:/\:::::\__\ /:/\:\ \:\__\ /\ \:\ \ \__\
- \/__|:|/:/  / /\/:/  /    \/_|:|~~|~    \:\  \ /:/  / \:\ \:\ \/__/          \:\  \    /\/:/  /    \/__\:\/:/  / \/_|:|~~|~    \/__\:\/:/  / \:\ \:\ \/__/
-     |:/:/  /  \::/__/        |:|  |      \:\  /:/  /   \:\ \:\__\             \:\  \   \::/__/          \::/  /     |:|  |          \::/  /   \:\ \:\__\  
-     |::/  /    \:\__\        |:|  |       \:\/:/  /     \:\/:/  /              \:\  \   \:\__\          /:/  /      |:|  |          /:/  /     \:\/:/  /  
-     /:/  /      \/__/        |:|  |        \::/  /       \::/  /                \:\__\   \/__/         /:/  /       |:|  |         /:/  /       \::/  /   
-     \/__/                     \|__|         \/__/         \/__/                  \/__/                 \/__/         \|__|         \/__/         \/__/                                                                                            
+ ___   __       ________     ___   ___     ______      ______         
+/__/\ /__/\    /_______/\   /___/\/__/\   /_____/\    /_____/\        
+\::\_\\  \ \   \__.::._\/   \::.\ \\ \ \  \:::_ \ \   \::::_\/_       
+ \:. `-\  \ \     \::\ \     \:: \/_) \ \  \:\ \ \ \   \:\/___/\      
+  \:. _    \ \    _\::\ \__   \:. __  ( (   \:\ \ \ \   \_::._\:\     
+   \. \`-\  \ \  /__\::\__/\   \: \ )  \ \   \:\_\ \ \    /____\:\    
+    \__\/ \__\/  \________\/    \__\/\__\/    \_____\/    \_____\/    
+ __          ________     ________      ___   ___     ________      ______     
+/_/\        /_______/\   /_______/\    /___/\/__/\   /_______/\    /_____/\    
+\:\ \       \__.::._\/   \::: _  \ \   \::.\ \\ \ \  \::: _  \ \   \::::_\/_   
+ \:\ \         \::\ \     \::(_)  \ \   \:: \/_) \ \  \::(_)  \ \   \:\/___/\  
+  \:\ \____    _\::\ \__   \:: __  \ \   \:. __  ( (   \:: __  \ \   \_::._\:\ 
+   \:\/___/\  /__\::\__/\   \:.\ \  \ \   \: \ )  \ \   \:.\ \  \ \    /____\:\
+    \_____\/  \________\/    \__\/\__\/    \__\/\__\/    \__\/\__\/    \_____\/
 </pre>
 
 <!-- ═══════════ ABOUT TAB ═══════════ -->
@@ -37,7 +40,6 @@ permalink: /
 <div style="font-size: 0.95rem; line-height: 1.8;">
 <span style="color: var(--text-muted);">📧</span> <a href="mailto:{{ member.email }}">{{ member.email }}</a><br>
 <span style="color: var(--text-muted);">🐙</span> <a href="{{ member.github }}" target="_blank">GitHub</a><br>
-<span style="color: var(--text-muted);">🎓</span> <a href="{{ member.scholar }}" target="_blank">Google Scholar</a><br>
 <span style="color: var(--text-muted);">💼</span> <a href="{{ member.linkedin }}" target="_blank">LinkedIn</a>
 </div>
 </div>
@@ -45,7 +47,7 @@ permalink: /
 </div>
 
 <div class="section-prompt">
-<span class="dollar">$</span> <span class="cmd">tree ~/education</span>
+<span class="dollar">$</span> <span class="cmd">tree ~/work_and_education</span>
 </div>
 
 {% for member in site.data.pi %}
@@ -69,9 +71,11 @@ permalink: /
 
 <div class="about-text" style="color: var(--text-secondary); line-height: 1.8; max-width: 75ch;">
 
-Write a few paragraphs about yourself here. This supports **Markdown** and HTML.
+I am transitioning from data engineering of financial models to C++ Software Engineer. Having recently completed my MSc in Computer Science, I have unique blend of both more than four years experience in the hands-on design, planning, implementation and testing of software, as well as the academic and research background of in infrastructure aware development. 
 
-You can talk about your current work, your research interests, your background, or anything else you'd like to share.
+___
+
+My interests are compiler design, hacking memory allocators and static analysis. This is combined with multiple [projects](https://nikolaosliakas.github.io/software/) in C++ and OCaml. 
 
 </div>
 
@@ -107,7 +111,7 @@ You can talk about your current work, your research interests, your background, 
 </div>
 
 <!-- ═══════════ STUDENTS TAB ═══════════ -->
-<div class="content-tab-panel" id="tab-students">
+<!-- <div class="content-tab-panel" id="tab-students">
 
 <div class="section-prompt">
 <span class="dollar">$</span> <span class="cmd">ls ~/supervised-students/</span>
@@ -124,7 +128,7 @@ You can talk about your current work, your research interests, your background, 
 </div>
 </div>
 
-</div>
+</div> -->
 
 <!-- ═══════════ PERSONAL TAB ═══════════ -->
 <div class="content-tab-panel" id="tab-personal">
@@ -133,9 +137,25 @@ You can talk about your current work, your research interests, your background, 
 <span class="dollar">$</span> <span class="cmd">cat ~/personal.md</span>
 </div>
 
-<div style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 2rem;">
+<style>
+  .book-title strong {
+    color: #33fff8; 
+  }
+</style>
 
-Write something personal here — hobbies, family, interests. This section is optional; remove the "personal" tab from `homelay.html` if you don't want it.
+<div class="book-title" style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 2rem;">
+
+I like to read literature, history, poetry and philosophy when not pinning pointers to addresses. Running and climbing especially with friends. Baile funk, laouto, paixnidia etc etc.
+
+____
+
+Highlight reads, unsorted:
+
+- **The Information** by James Gleick
+- **2666** by Roberto Bolano
+- **By Grand Central Station I Sat Down and Wept** by Elizabeth Smart
+- **Event** by Slavoj Zizek
+- **The Autobiography of Red** by Anne Carson
 
 </div>
 
@@ -151,12 +171,12 @@ Write something personal here — hobbies, family, interests. This section is op
 
 <div class="tree stagger-children">
 <div class="tree-item">
-<span class="tree-date" data-start="2000-01" data-end="2018-09" style="min-width: 80px;">0 – 18</span>
-<span class="tree-label">🏠 <a href="https://en.wikipedia.org/wiki/Your_Hometown">Your Hometown</a>, Country</span>
+<span class="tree-date" data-start="1991-01" data-end="2013-06" style="min-width: 80px;">0 – 21</span>
+<span class="tree-label">🏠 <a href="https://en.wikipedia.org/wiki/Toronto">Toronto</a>, Canada</span>
 </div>
 <div class="tree-item">
-<span class="tree-date" data-start="2018-09" style="min-width: 80px;">18 – now</span>
-<span class="tree-label">🏙️ <a href="https://en.wikipedia.org/wiki/Your_City">Your City</a>, Country</span>
+<span class="tree-date" data-start="2016-06" style="min-width: 80px;">25 – now</span>
+<span class="tree-label">🏙️ <a href="https://en.wikipedia.org/wiki/London">London</a>, United Kingdom</span>
 </div>
 </div>
 

@@ -166,14 +166,14 @@ document.addEventListener('DOMContentLoaded', function () {
     L.control.zoom({ position: 'bottomright' }).addTo(map);
 
     var places = [
-      { lat: 44.72, lon: 10.08, label: 'Noceto', age: '0–2', color: '#39d353' },
-      { lat: 44.74, lon: 10.28, label: 'Panocchia', age: '2–12', color: '#39d353' },
-      { lat: 44.93, lon: 10.37, label: 'Colorno', age: '12–22', color: '#39d353' },
-      { lat: 46.06, lon: 13.24, label: 'Udine', age: '22–24', color: '#39d353' },
-      { lat: 55.70, lon: 13.19, label: 'Lund', age: '24–25', color: '#58a6ff' },
-      { lat: 55.61, lon: 13.00, label: 'Malmö', age: '25–29', color: '#58a6ff' },
-      { lat: 55.73, lon: 9.11,  label: 'Billund', age: '29–31', color: '#f85149' },
-      { lat: 55.71, lon: 9.54,  label: 'Vejle', age: '31–now', color: '#f85149' }
+      { lat: 43.65, lon: -79.38, label: 'Toronto', age: '0–21', color: '#39d353' },
+      // { lat: 51.50, lon: 0.13, label: 'London', age: '21–23', color: '#39d353' },
+      { lat: 46.35, lon: -72.55, label: 'Trois-Rivieres', age: '23-25', color: '#58a6ff' },
+      { lat: 51.50, lon: 0.13, label: 'London', age: '25–now', color: '#f85149' },
+      // { lat: 55.70, lon: 13.19, label: 'Lund', age: '24–25', color: '#58a6ff' },
+      // { lat: 55.61, lon: 13.00, label: 'Malmö', age: '25–29', color: '#58a6ff' },
+      // { lat: 55.73, lon: 9.11,  label: 'Billund', age: '29–31', color: '#f85149' },
+      // { lat: 55.71, lon: 9.54,  label: 'Vejle', age: '31–now', color: '#f85149' }
     ];
 
     // Draw path connecting all places

@@ -1,11 +1,9 @@
-- name: Your Name
-  photo: avatar.jpg  # Place your photo in images/teampic/
-  info: Your Title at Your Company
-  email: you@example.com
-  github: https://github.com/yourusername
-  researchgate: https://www.researchgate.net/profile/Your-Name
-  scholar: https://scholar.google.com/citations?user=XXXXX
-  linkedin: https://linkedin.com/in/yourusername
+- name: Nikos Liakas
+  photo: profile.jpg  # Place your photo in images/teampic/
+  info: Lead Analytics Engineer transitioning to C++ Software Engineer
+  email: nikosliakas@tutamail.com
+  github: https://github.com/nikolaosliakas
+  linkedin: https://www.linkedin.com/in/nikos-liakas-931b74134/
   number_educ: 3
 
   # Education entries (numbered 1, 2, 3, ...)
@@ -14,20 +12,20 @@
   # - _detail = description shown in the tree
   # - _short = compact label (optional)
 
-  education1: (2023 - Present) Software Engineer, <a href="https://example.com">Company</a>
-  education1_start: 2023-06-01
-  education1_detail: "Brief description of your current role."
+  education1: (2023 - Present) Lead Analytics Engineer, <a href="https://www.libertyspecialtymarkets.com/">Liberty Specialty Markets</a>
+  education1_start: 2023-04
+  education1_detail: "Data engineering for analytics workload, model infrastructure and design."
 
-  education2: (2019 - 2023) PhD in Computer Science, <a href="https://example.edu">University</a>
-  education2_start: 2019-09-01
-  education2_end: 2023-06-01
-  education2_detail: "Research area and key contributions."
+  education2: (2019 - 2023) MSc (Dist) in Computer Science, <a href="https://www.bbk.ac.uk/">Birkbeck College, U of L</a>
+  education2_start: 2023-10
+  education2_end: 2025-12
+  education2_detail: "Thesis on Static Analysis, program verification by re-compiling OCaml source code."
 
-  education3: (2015 - 2019) B.S. Computer Science, <a href="https://example.edu">University</a>
-  education3_start: 2015-09-01
-  education3_end: 2019-06-01
-  education3_detail: "Any notable achievements."
+  education3: (2009 - 2013) BS(Hons) Art History, Italian and Bosnian, Croatia, Serbia, <a href="https://utoronto.ca">University of Toronto</a>
+  education3_start: 2009-09
+  education3_end: 2013-05
+  education3_detail: "Languages and literature"
 
-  education1short: (2023 - Present) SWE, <a href="https://example.com">Company</a>
-  education2short: (2019 - 2023) PhD, <a href="https://example.edu">University</a>
-  education3short: (2015 - 2019) B.S., <a href="https://example.edu">University</a>
+  education1short: (2023 - Present) Lead Analytics Engineer, <a href="https://www.libertyspecialtymarkets.com/">Liberty Specialty Markets</a>
+  education2short: (2023 - 2025) MSc, <a href="https://www.bbk.ac.uk/">Birkbeck College, U of L</a>
+  education3short: (2009 - 2013) BS, <a href="https://utoronto.ca">University of Toronto</a>
