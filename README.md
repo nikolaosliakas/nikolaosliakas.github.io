@@ -5,5 +5,5 @@ This website was created a from this [template][0]. The instructions for using t
 
 
 
-<!---------Links>
+<!---------Links------->
 [0]:https://github.com/IdrissRio/term-folio
