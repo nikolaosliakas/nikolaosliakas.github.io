@@ -71,11 +71,11 @@ permalink: /
 
 <div class="about-text" style="color: var(--text-secondary); line-height: 1.8; max-width: 75ch;">
 
-I am transitioning from data engineering of financial models to C++ Software Engineer. Having recently completed my MSc in Computer Science, I have unique blend of both more than four years experience in the hands-on design, planning, implementation and testing of software, as well as the academic and research background of in infrastructure aware development. 
+I have recently completed my MSc in Computer Science and am thus, transitioning from data engineering in financial services to C++ Software Engineer. I have a unique blend of both more than four years experience in the hands-on design, planning, implementation and testing of software, as well as the academic and research background of infrastructure aware development. 
 
 ___
 
-My interests are compiler design, hacking memory allocators and static analysis. This is combined with multiple [projects](https://nikolaosliakas.github.io/software/) in C++ and OCaml. 
+My interests are compiler design, hacking memory allocators and static analysis. This is combined with my [projects](https://nikolaosliakas.github.io/software/) in C++ and OCaml. 
 
 </div>
 

@@ -9,7 +9,7 @@ permalink: /curriculum/
   <span class="dollar">$</span> <span class="cmd">cat cv.json | jq .</span>
 </div>
 
-<p style="color: var(--text-secondary);">Full CV available as <a href="your-cv.pdf" target="_blank">PDF</a> — place your PDF in <code>curriculum/</code></p>
+<p style="color: var(--text-secondary);">Full CV available as <a href="20260616_NikosLiakas_CV.pdf" target="_blank">PDF</a> </p>
 
 <!-- Education -->
 <h2 style="color: var(--green); margin-top: 1.5rem;">education/</h2>
@@ -37,7 +37,7 @@ permalink: /curriculum/
 {% endfor %}
 </div>
 
-<!-- Certifications & Awards -->
+<!-- Certifications & Awards
 <h2 style="color: var(--green); margin-top: 2rem;">awards/</h2>
 
 <div class="tree stagger-children">
@@ -48,7 +48,7 @@ permalink: /curriculum/
 <span class="tree-label"><strong style="color: var(--text-primary);">{{ award.title }}</strong>{% if award.award %} — {{ award.award }}{% endif %}{% if award.description %}<br><span style="color: var(--text-muted); font-size: 0.9rem;">{{ award.description }}</span>{% endif %}</span>
 </div>
 {% endfor %}
-</div>
+</div> -->
 
 <!-- Work Experience -->
 <h2 style="color: var(--green); margin-top: 2rem;">work-experience/</h2>
@@ -63,32 +63,25 @@ permalink: /curriculum/
 {% endfor %}
 </div>
 
-<!-- Publications -->
-<h2 style="color: var(--green); margin-top: 2rem;">publications/</h2>
 
-<div class="tree stagger-children">
-{% for pub in site.data.cv.publications %}
-<div class="tree-item">
-<span class="tree-branch">{% if forloop.last %}└──{% else %}├──{% endif %}</span>
-<span class="tree-date">{{ pub.date }}</span>
-<span class="tree-label"><strong style="color: var(--text-primary);">{{ pub.title }}</strong><br><span style="color: var(--text-muted); font-size: 0.9rem;">{{ pub.authors }}{% if pub.event %} — {{ pub.event }}{% endif %}{% if pub.status %} ({{ pub.status }}){% endif %}</span></span>
-</div>
-{% endfor %}
+<!-- Coding Skills -->
+<h2 style="color: var(--green); margin-top: 2rem;">coding-skills/</h2>
+
+<div markdown="0">
+<div class="skill-bar"><span class="skill-name">C++</span><div class="skill-track"><div class="skill-fill" style="width: 75%;"></div></div><span class="skill-pct">75%</span></div>
+<div class="skill-bar"><span class="skill-name">Python</span><div class="skill-track"><div class="skill-fill" style="width: 90%;"></div></div><span class="skill-pct">90%</span></div>
+<div class="skill-bar"><span class="skill-name">SQL</span><div class="skill-track"><div class="skill-fill" style="width: 85%;"></div></div><span class="skill-pct">85%</span></div>
+<div class="skill-bar"><span class="skill-name">OCaml</span><div class="skill-track"><div class="skill-fill" style="width: 65%;"></div></div><span class="skill-pct">65%</span></div>
+<div class="skill-bar"><span class="skill-name">Java</span><div class="skill-track"><div class="skill-fill" style="width: 60%;"></div></div><span class="skill-pct">60%</span></div>
 </div>
 
 <!-- Languages -->
 <h2 style="color: var(--green); margin-top: 2rem;">languages/</h2>
 
 <div style="margin-bottom: 1.5rem;" markdown="0">
-<div class="skill-bar"><span class="skill-name">🇺🇸 English</span><div class="skill-track"><div class="skill-fill" style="width: 100%;"></div></div><span class="skill-pct">Native</span></div>
-<div class="skill-bar"><span class="skill-name">🇪🇸 Spanish</span><div class="skill-track"><div class="skill-fill" style="width: 70%;"></div></div><span class="skill-pct">B2</span></div>
+<div class="skill-bar"><span class="skill-name">🇨🇦 English</span><div class="skill-track"><div class="skill-fill" style="width: 100%;"></div></div><span class="skill-pct">Native</span></div>
+<div class="skill-bar"><span class="skill-name">🇬🇷 Greek</span><div class="skill-track"><div class="skill-fill" style="width: 85%;"></div></div><span class="skill-pct">C1</span></div>
+<div class="skill-bar"><span class="skill-name">🇩🇪 German</span><div class="skill-track"><div class="skill-fill" style="width: 70%;"></div></div><span class="skill-pct">B2</span></div>
 </div>
 
-<!-- Coding Skills -->
-<h2 style="color: var(--green); margin-top: 2rem;">coding-skills/</h2>
 
-<div markdown="0">
-<div class="skill-bar"><span class="skill-name">Python</span><div class="skill-track"><div class="skill-fill" style="width: 100%;"></div></div><span class="skill-pct">daily</span></div>
-<div class="skill-bar"><span class="skill-name">JavaScript</span><div class="skill-track"><div class="skill-fill" style="width: 80%;"></div></div><span class="skill-pct">80%</span></div>
-<div class="skill-bar"><span class="skill-name">Go</span><div class="skill-track"><div class="skill-fill" style="width: 60%;"></div></div><span class="skill-pct">60%</span></div>
-</div>
