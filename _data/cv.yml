@@ -25,14 +25,13 @@ experience:
       start: "2025"
       end: ""
       link: "https://github.com/nikolaosliakas/gb-emulator"
-      description: "Dynamic memory allocation is a fundamental service expected of every operating system. This repository models the process and strategies used from simple bump-allocations to fuller scale allocators like ptmalloc."
+      description: "The original Gameboy had one of the most elegant memory models in device history. This repository is a gameboy emulator written in C++. It takes real ROMs and allows the computer user to play games!"
     - project: "LCSTRS_of_OCaml: Transpiler from OCaml to Term-Rewrite System for Program Verification"
       title: "Software Engineer"
       start: "2025"
       end: "2025"
       link: "https://github.com/nikolaosliakas/LCSTRS_of_OCaml"
-      description: "The original Gameboy had one of the most elegant memory models in device history. This repository is a gameboy emulator written in C++. It takes real ROMs and allows the computer user to play games!"
-
+      description: "Automatic translator from OCaml to Logically Constrained Simply-typed Term Rewrite System expressions. Used for termination analysis with the program analyser cora, that parses Term Rewrite System expressions and applies proofs to output of translator."
 work_experience:
   - title: "Lead Analytics Engineer"
     company: "Liberty Specialty Markets"
